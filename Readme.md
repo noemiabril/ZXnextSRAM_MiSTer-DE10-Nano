@@ -1,5 +1,6 @@
---- ZX Spectrum Next for MiSTer
+--- ZX Spectrum Next for MiSTer with increased sound volume
 *** Based on benitoss (benitoss@gmail.com) https://github.com/benitoss/ZXNext_Mister  and  rampa069 (rampa@encomix.org) https://github.com/RW-FPGA-devel-Team/ZXNext_Mister/tree/dev-rampa source code.
+
 
 
 # ZX Spectrum Next
