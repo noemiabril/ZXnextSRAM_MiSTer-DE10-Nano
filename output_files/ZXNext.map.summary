@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Mon Jan 18 12:05:54 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : ZXNext
+Top-level Entity Name : sys_top
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 25890
+Total pins : 145
+Total virtual pins : 0
+Total block memory bits : 1,115,759
+Total DSP Blocks : 29
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 2
+Total DLLs : 0

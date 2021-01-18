@@ -1,0 +1,37 @@
+{
+	"title" : "Timing Analyzer||Fast 1100mV -40C Model||Fast 1100mV -40C Model Recovery Summary",
+	"data" : {
+		"data" : [
+			{
+				"0" : "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+				"1" : "4.991",
+				"2" : "0.000"
+			},
+			{
+				"0" : "sysmem|fpga_interfaces|clocks_resets|h2f_user0_clk",
+				"1" : "8.341",
+				"2" : "0.000"
+			},
+			{
+				"0" : "FPGA_CLK1_50",
+				"1" : "16.949",
+				"2" : "0.000"
+			},
+			{
+				"0" : "emu|pll|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk",
+				"1" : "32.914",
+				"2" : "0.000"
+			},
+			{
+				"0" : "emu|pll|pll_inst|altera_pll_i|general[3].gpll~PLL_OUTPUT_COUNTER|divclk",
+				"1" : "66.187",
+				"2" : "0.000"
+			},
+			{
+				"0" : "emu|pll|pll_inst|altera_pll_i|general[4].gpll~PLL_OUTPUT_COUNTER|divclk",
+				"1" : "137.666",
+				"2" : "0.000"
+			}
+		]
+	}
+}

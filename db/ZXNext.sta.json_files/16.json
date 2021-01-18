@@ -1,0 +1,73 @@
+{
+	"title" : "Timing Analyzer||Slow 1100mV -40C Model||Slow 1100mV -40C Model Fmax Summary",
+	"data" : {
+		"data" : [
+			{
+				"0" : "62.63 MHz",
+				"1" : "62.63 MHz",
+				"2" : "emu|pll|pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk",
+				"3" : ""
+			},
+			{
+				"0" : "63.04 MHz",
+				"1" : "63.04 MHz",
+				"2" : "emu|pll|pll_inst|altera_pll_i|general[3].gpll~PLL_OUTPUT_COUNTER|divclk",
+				"3" : ""
+			},
+			{
+				"0" : "63.32 MHz",
+				"1" : "63.32 MHz",
+				"2" : "emu|pll|pll_inst|altera_pll_i|general[4].gpll~PLL_OUTPUT_COUNTER|divclk",
+				"3" : ""
+			},
+			{
+				"0" : "71.91 MHz",
+				"1" : "71.91 MHz",
+				"2" : "FPGA_CLK1_50",
+				"3" : ""
+			},
+			{
+				"0" : "96.79 MHz",
+				"1" : "96.79 MHz",
+				"2" : "FPGA_CLK3_50",
+				"3" : ""
+			},
+			{
+				"0" : "131.03 MHz",
+				"1" : "131.03 MHz",
+				"2" : "FPGA_CLK2_50",
+				"3" : ""
+			},
+			{
+				"0" : "142.86 MHz",
+				"1" : "142.86 MHz",
+				"2" : "emu|pll|pll_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk",
+				"3" : ""
+			},
+			{
+				"0" : "150.13 MHz",
+				"1" : "150.13 MHz",
+				"2" : "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+				"3" : ""
+			},
+			{
+				"0" : "155.21 MHz",
+				"1" : "155.21 MHz",
+				"2" : "emu|pll|pll_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk",
+				"3" : ""
+			},
+			{
+				"0" : "184.47 MHz",
+				"1" : "184.47 MHz",
+				"2" : "sysmem|fpga_interfaces|clocks_resets|h2f_user0_clk",
+				"3" : ""
+			},
+			{
+				"0" : "489.0 MHz",
+				"1" : "489.0 MHz",
+				"2" : "spi_sck",
+				"3" : ""
+			}
+		]
+	}
+}

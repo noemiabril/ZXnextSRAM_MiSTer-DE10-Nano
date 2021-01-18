@@ -1,0 +1,172 @@
+Flow report for ZXNext
+Mon Jan 18 12:39:56 2021
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Mon Jan 18 12:34:09 2021       ;
+; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                   ; ZXNext                                      ;
+; Top-level Entity Name           ; sys_top                                     ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEBA6U23I7                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 17,718 / 41,910 ( 42 % )                    ;
+; Total registers                 ; 26072                                       ;
+; Total pins                      ; 145 / 314 ( 46 % )                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 1,115,759 / 5,662,720 ( 20 % )              ;
+; Total DSP Blocks                ; 29 / 112 ( 26 % )                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 2 / 6 ( 33 % )                              ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 01/18/2021 12:02:55 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; ZXNext              ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                           ;
++------------------------------------------------------+-----------------------------------------------------------------------------------------------------+--------------------+-------------+------------+
+; Assignment Name                                      ; Value                                                                                               ; Default Value      ; Entity Name ; Section Id ;
++------------------------------------------------------+-----------------------------------------------------------------------------------------------------+--------------------+-------------+------------+
+; ADV_NETLIST_OPT_SYNTH_WYSIWYG_REMAP                  ; On                                                                                                  ; Off                ; --          ; --         ;
+; AUTO_DELAY_CHAINS_FOR_HIGH_FANOUT_INPUT_PINS         ; On                                                                                                  ; Off                ; --          ; --         ;
+; CLOUD_NOTIFY_ENABLE                                  ; Off                                                                                                 ; --                 ; --          ; --         ;
+; CLOUD_NOTIFY_GROUP_ID                                ; ZXnext                                                                                              ; --                 ; --          ; --         ;
+; COMPILER_SIGNATURE_ID                                ; 57827279651190.161096777416660                                                                      ; --                 ; --          ; --         ;
+; DSE_SEND_REPORT_PANEL                                ; ^Timing Analyzer/Clocks$                                                                            ; --                 ; --          ; --         ;
+; DSE_SEND_REPORT_PANEL                                ; Fitter/(Resource Section|Place Stage)/Fitter Resource Usage Summary                                 ; --                 ; --          ; --         ;
+; DSE_SEND_REPORT_PANEL                                ; ^Timing Analyzer/(Slow|Fast)\s.*Model/(Slow|Fast)\s.*Model\s(Setup|Hold|Recovery|Removal)\sSummary$ ; --                 ; --          ; --         ;
+; DSE_SEND_REPORT_PANEL                                ; ^Timing Analyzer/(Slow|Fast)\s.*Model/(Slow|Fast)\s.*Model\sFmax\sSummary$                          ; --                 ; --          ; --         ;
+; DSE_SEND_REPORT_PANEL                                ; Flow Elapsed Time                                                                                   ; --                 ; --          ; --         ;
+; DSE_SERVER_SEND_REPORTS                              ; On                                                                                                  ; --                 ; --          ; --         ;
+; DSE_SERVER_URL                                       ; http://localhost:52108                                                                              ; --                 ; --          ; --         ;
+; DSE_WORKER_ID                                        ; 11                                                                                                  ; --                 ; --          ; --         ;
+; ECO_OPTIMIZE_TIMING                                  ; On                                                                                                  ; Off                ; --          ; --         ;
+; FINAL_PLACEMENT_OPTIMIZATION                         ; Always                                                                                              ; Automatically      ; --          ; --         ;
+; FITTER_EFFORT                                        ; Standard Fit                                                                                        ; Auto Fit           ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP                               ; 100                                                                                                 ; --                 ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP                               ; -40                                                                                                 ; --                 ; --          ; --         ;
+; MISC_FILE                                            ; rtl/pll.cmp                                                                                         ; --                 ; --          ; --         ;
+; MISC_FILE                                            ; sys/pll_hdmi.cmp                                                                                    ; --                 ; --          ; --         ;
+; MISC_FILE                                            ; sys/pll_cfg.cmp                                                                                     ; --                 ; --          ; --         ;
+; MUX_RESTRUCTURE                                      ; On                                                                                                  ; Auto               ; --          ; --         ;
+; NUM_PARALLEL_PROCESSORS                              ; 2                                                                                                   ; --                 ; --          ; --         ;
+; OPTIMIZATION_MODE                                    ; High Performance Effort                                                                             ; Balanced           ; --          ; --         ;
+; OPTIMIZATION_TECHNIQUE                               ; Speed                                                                                               ; Balanced           ; --          ; --         ;
+; OPTIMIZE_POWER_DURING_FITTING                        ; Off                                                                                                 ; Normal compilation ; --          ; --         ;
+; PARTITION_COLOR                                      ; -- (Not supported for targeted family)                                                              ; --                 ; sys_top     ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL                  ; -- (Not supported for targeted family)                                                              ; --                 ; sys_top     ; Top        ;
+; PARTITION_NETLIST_TYPE                               ; -- (Not supported for targeted family)                                                              ; --                 ; sys_top     ; Top        ;
+; PERIPHERY_TO_CORE_PLACEMENT_AND_ROUTING_OPTIMIZATION ; On                                                                                                  ; Off                ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_ASYNCHRONOUS_SIGNAL_PIPELINING    ; On                                                                                                  ; Off                ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_COMBO_LOGIC                       ; On                                                                                                  ; Off                ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_COMBO_LOGIC_FOR_AREA              ; On                                                                                                  ; Off                ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION              ; On                                                                                                  ; Off                ; --          ; --         ;
+; PHYSICAL_SYNTHESIS_REGISTER_RETIMING                 ; On                                                                                                  ; Off                ; --          ; --         ;
+; PLACEMENT_EFFORT_MULTIPLIER                          ; 4.0                                                                                                 ; 1.0                ; --          ; --         ;
+; POWER_BOARD_THERMAL_MODEL                            ; None (CONSERVATIVE)                                                                                 ; --                 ; --          ; --         ;
+; POWER_PRESET_COOLING_SOLUTION                        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                                               ; --                 ; --          ; --         ;
+; PRE_FLOW_SCRIPT_FILE                                 ; quartus_sh:sys/build_id.tcl                                                                         ; --                 ; --          ; --         ;
+; PRE_MAPPING_RESYNTHESIS                              ; On                                                                                                  ; Off                ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY                             ; output_files                                                                                        ; --                 ; --          ; --         ;
+; ROUTER_CLOCKING_TOPOLOGY_ANALYSIS                    ; On                                                                                                  ; Off                ; --          ; --         ;
+; ROUTER_LCELL_INSERTION_AND_LOGIC_DUPLICATION         ; On                                                                                                  ; Auto               ; --          ; --         ;
+; ROUTER_TIMING_OPTIMIZATION_LEVEL                     ; MAXIMUM                                                                                             ; Normal             ; --          ; --         ;
+; SAVE_DISK_SPACE                                      ; Off                                                                                                 ; On                 ; --          ; --         ;
+; SEED                                                 ; 12                                                                                                  ; 1                  ; --          ; --         ;
+; SMART_RECOMPILE                                      ; On                                                                                                  ; Off                ; --          ; --         ;
+; SYNTHESIS_ONLY_QIP                                   ; On                                                                                                  ; --                 ; --          ; --         ;
+; SYNTHESIS_ONLY_QIP                                   ; On                                                                                                  ; --                 ; --          ; --         ;
+; SYNTHESIS_ONLY_QIP                                   ; On                                                                                                  ; --                 ; --          ; --         ;
+; SYNTH_GATED_CLOCK_CONVERSION                         ; On                                                                                                  ; Off                ; --          ; --         ;
+; TOP_LEVEL_ENTITY                                     ; sys_top                                                                                             ; ZXNext             ; --          ; --         ;
+; USE_CHECKERED_PATTERN_AS_UNINITIALIZED_RAM_CONTENT   ; 0000                                                                                                ; Off                ; --          ; --         ;
++------------------------------------------------------+-----------------------------------------------------------------------------------------------------+--------------------+-------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:02:52     ; 1.3                     ; 5572 MB             ; 00:03:43                           ;
+; Fitter               ; 00:27:04     ; 1.2                     ; 7426 MB             ; 00:39:49                           ;
+; Assembler            ; 00:00:47     ; 1.0                     ; 5178 MB             ; 00:00:40                           ;
+; Timing Analyzer      ; 00:05:45     ; 1.3                     ; 6208 MB             ; 00:07:19                           ;
+; Total                ; 00:36:28     ; --                      ; --                  ; 00:51:31                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-DCU2O6B  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-DCU2O6B  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-DCU2O6B  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-DCU2O6B  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=off --write_settings_files=off ZXNext -c ZXNext
+quartus_fit --read_settings_files=off --write_settings_files=off ZXNext -c ZXNext
+quartus_asm --read_settings_files=off --write_settings_files=off ZXNext -c ZXNext
+quartus_sta ZXNext -c ZXNext
+
+
+

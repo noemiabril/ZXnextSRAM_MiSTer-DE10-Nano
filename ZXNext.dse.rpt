@@ -1,0 +1,143 @@
+Exploration report for ZXNext
+Mon Jan 18 11:37:12 2021
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
++------------------+
+; Table of Contents;
++------------------+
+  1. Legal Notice
+  2. Exploration Summary
+  3. DSE Messages
+
++-------------+
+; Legal Notice;
++-------------+
+Copyright (C) 1991-2021 Altera Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Exploration Summary                                                                                                                ;
++-----------------+--------------+--------------+---------------+--------------+------------------+-----------------+----------------+
+;Exploration Point;Quality of Fit;f(MAX) Geomean;WC Slack: Setup;WC Slack: Hold;WC Slack: Recovery;WC Slack: Removal;Compilation Time;
++-----------------+--------------+--------------+---------------+--------------+------------------+-----------------+----------------+
+;ZXnext_1         ;    -10000.000;No Data       ;No Data        ;No Data       ;No Data           ;No Data          ;No Data         ;
+;ZXnext_2         ;    -10000.000;No Data       ;No Data        ;No Data       ;No Data           ;No Data          ;No Data         ;
+;ZXnext_3         ;    -10000.000;No Data       ;No Data        ;No Data       ;No Data           ;No Data          ;No Data         ;
+;ZXnext_4         ;    -10000.000;No Data       ;No Data        ;No Data       ;No Data           ;No Data          ;No Data         ;
+;ZXnext_5         ;    -10000.000;No Data       ;No Data        ;No Data       ;No Data           ;No Data          ;No Data         ;
+;ZXnext_6         ;    -10000.000;No Data       ;No Data        ;No Data       ;No Data           ;No Data          ;No Data         ;
+;ZXnext_7         ;    -10000.000;No Data       ;No Data        ;No Data       ;No Data           ;No Data          ;No Data         ;
+;ZXnext_8         ;    -10000.000;No Data       ;No Data        ;No Data       ;No Data           ;No Data          ;No Data         ;
+;ZXnext_9         ;    -10000.000;No Data       ;No Data        ;No Data       ;No Data           ;No Data          ;No Data         ;
+;ZXnext_10        ;    -10000.000;No Data       ;No Data        ;No Data       ;No Data           ;No Data          ;No Data         ;
+;ZXnext_11        ;    -10000.000;No Data       ;No Data        ;No Data       ;No Data           ;No Data          ;No Data         ;
+;ZXnext_12        ;    -10000.000;No Data       ;No Data        ;No Data       ;No Data           ;No Data          ;No Data         ;
+;ZXnext_13        ;    -10000.000;No Data       ;No Data        ;No Data       ;No Data           ;No Data          ;No Data         ;
+;ZXnext_14        ;    -10000.000;No Data       ;No Data        ;No Data       ;No Data           ;No Data          ;No Data         ;
+;ZXnext_15        ;    -10000.000;No Data       ;No Data        ;No Data       ;No Data           ;No Data          ;No Data         ;
+;ZXnext_base      ;    -10000.000;No Data       ;No Data        ;No Data       ;No Data           ;No Data          ;00:01:20        ;
++-----------------+--------------+--------------+---------------+--------------+------------------+-----------------+----------------+
+
++-------------+
+; DSE Messages;
++-------------+
+Info: Archiving C:/github/ZXnext_MiSTer/ZXNext.qpf revision ZXNext ...
+Info: Job 1 : quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Job 2 : quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Job 3 : quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Job 4 : quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Job 5 : quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Job 6 : quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Job 7 : quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Job 8 : quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Job 9 : quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Job 10 : quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Job 11 : quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Job 12 : quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Job 13 : quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Job 14 : quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Job 15 : quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Job 16 : quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Explorer server: http://localhost:56563 started.
+Info: Starting seed sweep only exploration
+Info: Revision: ZXnext_base will be compiled on compute node: DESKTOP-DCU2O6B
+Info: Exploration Point ZXnext_base reported: Registering self with server http://localhost:56563/api/v1.0/broker/server/
+Info: Exploration Point ZXnext_base reported: Successfully registered with server.
+Info: Exploration Point ZXnext_base reported: Starting compilation quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Exploration Point ZXnext_base reported: Sent timestamps successfully
+Info: Exploration Point ZXnext_base reported: Preparing to compile ZXNext ...
+Info: Exploration Point ZXnext_base reported: Downloading ZXNext.qar.sha256 ...
+Info: Exploration Point ZXnext_base reported: Finished download.
+Info: Exploration Point ZXnext_base reported: Verified dse/ZXnext/ZXnext_base\ZXNext.qar.sha256 exists.
+Info: Exploration Point ZXnext_base reported: Downloading ZXNext.qar ...
+Info: Exploration Point ZXnext_base reported: Finished download.
+Info: Exploration Point ZXnext_base reported: Verified dse/ZXnext/ZXnext_base\ZXNext.qar exists.
+Info: Exploration Point ZXnext_base reported: Download successful. Checksum matched expected value.
+Info: Exploration Point ZXnext_base reported: Running quartus_sh --restore -output dse/ZXnext/ZXnext_base dse/ZXnext/ZXnext_base\ZXNext.qar
+Info: Exploration Point ZXnext_base reported: Downloading ZXnext_base.qsf ...
+Info: Exploration Point ZXnext_base reported: Finished download.
+Info: Exploration Point ZXnext_base reported: Verified C:\github\ZXnext_MiSTer\dse/ZXnext/ZXnext_base\ZXNext.qsf exists.
+Info: Exploration Point ZXnext_base reported: Downloading ZXnext_base.qpf ...
+Info: Exploration Point ZXnext_base reported: Finished download.
+Info: Exploration Point ZXnext_base reported: Verified dse/ZXnext/ZXnext_base\ZXNext.qpf exists.
+Info: Exploration Point ZXnext_base reported: Sent timestamps successfully
+Info: Exploration Point ZXnext_base reported: Sent timestamps successfully
+Error: Exploration Point ZXnext_base reported: VHDL error at zxnext_Mister.vhd(1251): left bound (12) of slice must belong to range (11 downto 0) of corresponding object
+Error: Exploration Point ZXnext_base reported: VHDL Operator error at zxnext_Mister.vhd(1251): failed to evaluate call to operator ""&""
+Error: Exploration Point ZXnext_base reported: Can't elaborate user hierarchy "emu:emu|ZXNEXT_Mister:ZXNEXT_Mister"
+Error: Exploration Point ZXnext_base reported: Quartus Prime Analysis & Synthesis was unsuccessful. 3 errors, 60 warnings
+Error: 	Peak virtual memory: 6410 megabytes
+Error: 	Processing ended: Mon Jan 18 11:32:58 2021
+Error: 	Elapsed time: 00:01:20
+Error: 	Total CPU time (on all processors): 00:01:13
+Error: Exploration Point ZXnext_base reported: Quartus Prime Full Compilation was unsuccessful. 5 errors, 60 warnings
+Error: Exploration Point ZXnext_base reported: Flow compile (for project C:/github/ZXnext_MiSTer/dse/ZXnext/ZXnext_base/ZXNext) was not successful
+Error: Exploration Point ZXnext_base reported: ERROR: Error(s) found while running an executable. See report file(s) for error message(s). Message log indicates which executable was run last.
+Error: Exploration Point ZXnext_base reported: Evaluation of Tcl script c:/intelfpga_lite/20.1/quartus/common/tcl/internal/qsh_flow.tcl unsuccessful
+Error: Exploration Point ZXnext_base reported: Quartus Prime Shell was unsuccessful. 12 errors, 60 warnings
+Error: 	Peak virtual memory: 4687 megabytes
+Error: 	Processing ended: Mon Jan 18 11:33:00 2021
+Error: 	Elapsed time: 00:01:32
+Error: 	Total CPU time (on all processors): 00:00:02
+Info: Exploration Point ZXnext_base reported: Compilation finished. 9 msgs
+Info: Exploration Point ZXnext_base reported: Processing keep results option: all
+Info: Revision: ZXnext_1 will be compiled on compute node: DESKTOP-DCU2O6B
+Info: Exploration Point ZXnext_1 reported: Registering self with server http://localhost:56563/api/v1.0/broker/server/
+Info: Exploration Point ZXnext_1 reported: Successfully registered with server.
+Info: Exploration Point ZXnext_1 reported: Starting compilation quartus_sh --ipc_json --flow compile ZXNext.qsf
+Info: Exploration Point ZXnext_1 reported: Sent timestamps successfully
+Info: Exploration Point ZXnext_1 reported: Preparing to compile ZXNext ...
+Info: Exploration Point ZXnext_1 reported: Downloading ZXNext.qar.sha256 ...
+Info: Exploration Point ZXnext_1 reported: Finished download.
+Info: Exploration Point ZXnext_1 reported: Verified dse/ZXnext/ZXnext_1\ZXNext.qar.sha256 exists.
+Info: Exploration Point ZXnext_1 reported: Downloading ZXNext.qar ...
+Info: Exploration Point ZXnext_1 reported: Finished download.
+Info: Exploration Point ZXnext_1 reported: Verified dse/ZXnext/ZXnext_1\ZXNext.qar exists.
+Info: Exploration Point ZXnext_1 reported: Download successful. Checksum matched expected value.
+Info: Exploration Point ZXnext_1 reported: Running quartus_sh --restore -output dse/ZXnext/ZXnext_1 dse/ZXnext/ZXnext_1\ZXNext.qar
+Info: Exploration Point ZXnext_1 reported: Downloading ZXnext_1.qsf ...
+Info: Exploration Point ZXnext_1 reported: Finished download.
+Info: Exploration Point ZXnext_1 reported: Verified C:\github\ZXnext_MiSTer\dse/ZXnext/ZXnext_1\ZXNext.qsf exists.
+Info: Exploration Point ZXnext_1 reported: Downloading ZXnext_1.qpf ...
+Info: Exploration Point ZXnext_1 reported: Finished download.
+Info: Exploration Point ZXnext_1 reported: Verified dse/ZXnext/ZXnext_1\ZXNext.qpf exists.
+Info: Exploration Point ZXnext_1 reported: Sent timestamps successfully
+Info: Exploration Point ZXnext_1 reported: Sent timestamps successfully
+Error: Completed exploration. Results: 0 passed; 1 failed.
+Info: Processing ended: Mon Jan 18 11:36:56 2021
+Info: Elapsed time: 0:05:54
+

@@ -1,0 +1,38 @@
+Info (10281): Verilog HDL Declaration information at altera_pll_reconfig_core.v(112): object "LOCKED" differs only in case from object "locked" in the same scope File: C:/github/ZXnext_MiSTer/sys/pll_cfg/altera_pll_reconfig_core.v Line: 112
+Info (10281): Verilog HDL Declaration information at altera_pll_reconfig_core.v(1901): object "dps_done" differs only in case from object "DPS_DONE" in the same scope File: C:/github/ZXnext_MiSTer/sys/pll_cfg/altera_pll_reconfig_core.v Line: 1901
+Info (10281): Verilog HDL Declaration information at altera_pll_reconfig_core.v(1893): object "dps_changed" differs only in case from object "DPS_CHANGED" in the same scope File: C:/github/ZXnext_MiSTer/sys/pll_cfg/altera_pll_reconfig_core.v Line: 1893
+Info (10281): Verilog HDL Declaration information at sys_top.v(141): object "sd_miso" differs only in case from object "SD_MISO" in the same scope File: C:/github/ZXnext_MiSTer/sys/sys_top.v Line: 141
+Info (10281): Verilog HDL Declaration information at sys_top.v(98): object "BTN_USER" differs only in case from object "btn_user" in the same scope File: C:/github/ZXnext_MiSTer/sys/sys_top.v Line: 98
+Info (10281): Verilog HDL Declaration information at sys_top.v(99): object "BTN_OSD" differs only in case from object "btn_osd" in the same scope File: C:/github/ZXnext_MiSTer/sys/sys_top.v Line: 99
+Info (10281): Verilog HDL Declaration information at sys_top.v(43): object "HDMI_TX_CLK" differs only in case from object "hdmi_tx_clk" in the same scope File: C:/github/ZXnext_MiSTer/sys/sys_top.v Line: 43
+Info (10281): Verilog HDL Declaration information at sys_top.v(85): object "AUDIO_L" differs only in case from object "audio_l" in the same scope File: C:/github/ZXnext_MiSTer/sys/sys_top.v Line: 85
+Info (10281): Verilog HDL Declaration information at sys_top.v(86): object "AUDIO_R" differs only in case from object "audio_r" in the same scope File: C:/github/ZXnext_MiSTer/sys/sys_top.v Line: 86
+Info (10281): Verilog HDL Declaration information at sys_top.v(95): object "LED_USER" differs only in case from object "led_user" in the same scope File: C:/github/ZXnext_MiSTer/sys/sys_top.v Line: 95
+Info (10281): Verilog HDL Declaration information at sys_top.v(97): object "LED_POWER" differs only in case from object "led_power" in the same scope File: C:/github/ZXnext_MiSTer/sys/sys_top.v Line: 97
+Info (10281): Verilog HDL Declaration information at hq2x.sv(304): object "A" differs only in case from object "a" in the same scope File: C:/github/ZXnext_MiSTer/sys/hq2x.sv Line: 304
+Info (10281): Verilog HDL Declaration information at hq2x.sv(305): object "B" differs only in case from object "b" in the same scope File: C:/github/ZXnext_MiSTer/sys/hq2x.sv Line: 305
+Info (10281): Verilog HDL Declaration information at hq2x.sv(306): object "D" differs only in case from object "d" in the same scope File: C:/github/ZXnext_MiSTer/sys/hq2x.sv Line: 306
+Info (10281): Verilog HDL Declaration information at hq2x.sv(303): object "E" differs only in case from object "e" in the same scope File: C:/github/ZXnext_MiSTer/sys/hq2x.sv Line: 303
+Info (10281): Verilog HDL Declaration information at hq2x.sv(308): object "H" differs only in case from object "h" in the same scope File: C:/github/ZXnext_MiSTer/sys/hq2x.sv Line: 308
+Info (10281): Verilog HDL Declaration information at hq2x.sv(307): object "F" differs only in case from object "f" in the same scope File: C:/github/ZXnext_MiSTer/sys/hq2x.sv Line: 307
+Info (10281): Verilog HDL Declaration information at scandoubler.v(29): object "hq2x" differs only in case from object "Hq2x" in the same scope File: C:/github/ZXnext_MiSTer/sys/scandoubler.v Line: 29
+Warning (10720): Verilog HDL or VHDL warning at sys/video_mixer.sv(22): MESSAGE_ON or MESSAGE_OFF directive cannot process the non-HDL message ID 12161. File: C:/github/ZXnext_MiSTer/sys/video_mixer.sv Line: 22
+Warning (10268): Verilog HDL information at audio_out.v(38): always construct contains both blocking and non-blocking assignments File: C:/github/ZXnext_MiSTer/sys/audio_out.v Line: 38
+Info (10281): Verilog HDL Declaration information at ZXNext.sv(29): object "RESET" differs only in case from object "reset" in the same scope File: C:/github/ZXnext_MiSTer/ZXNext.sv Line: 29
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[32]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[15]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[14]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[13]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[12]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[11]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[10]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[9]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[8]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[7]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[6]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[5]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[4]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[3]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[2]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[1]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
+Warning (12161): Node "emu:emu|hps_io:hps_io|EXT_BUS[0]" is stuck at GND because node is in wire loop and does not have a source File: C:/github/ZXnext_MiSTer/sys/hps_io.v Line: 155
