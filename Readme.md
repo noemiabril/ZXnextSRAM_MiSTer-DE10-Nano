@@ -9,6 +9,9 @@ Based on benitoss (benitoss@gmail.com) https://github.com/benitoss/ZXNext_Mister
 
 
 
+# ZX Spectrum Next
+
+
 ## SPECIFICATIONS
 
 The ZX Spectrum Next core is not completed yet but the aim is to finish for the second kickstarter.  Nevertheless the majority of the planned functionality is already implemented.
