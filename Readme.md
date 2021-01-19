@@ -1,8 +1,10 @@
---- ZX Spectrum Next for MiSTer
-*** Based on benitoss (benitoss@gmail.com) https://github.com/benitoss/ZXNext_Mister  and  rampa069 (rampa@encomix.org) https://github.com/RW-FPGA-devel-Team/ZXNext_Mister/tree/dev-rampa source code.
+## ZX Spectrum Next for MiSTer
+Sound/Volume Increased V20210118NA
+
+Based on benitoss (benitoss@gmail.com) https://github.com/benitoss/ZXNext_Mister  and  rampa069 (rampa@encomix.org) https://github.com/RW-FPGA-devel-Team/ZXNext_Mister/tree/dev-rampa source code.
 
 
-# ZX Spectrum Next
+## ZX Spectrum Next
 
 This port of ZX-Next to MiSTer FPGA, need a module with SRAM, it does not
 work at the moment with SDRAM.
