@@ -1,22 +1,12 @@
-<<<<<<< HEAD
-## ZX Spectrum Next for MiSTer
-Sound/Volume Increased V20210118NA
-=======
---- ZX Spectrum Next for MiSTer with increased sound volume
-*** Based on benitoss (benitoss@gmail.com) https://github.com/benitoss/ZXNext_Mister  and  rampa069 (rampa@encomix.org) https://github.com/RW-FPGA-devel-Team/ZXNext_Mister/tree/dev-rampa source code.
->>>>>>> 099548e5049439272069d18ffafe873aeb9e9c59
-
-Based on benitoss (benitoss@gmail.com) https://github.com/benitoss/ZXNext_Mister  and  rampa069 (rampa@encomix.org) https://github.com/RW-FPGA-devel-Team/ZXNext_Mister/tree/dev-rampa source code.
-
-
-<<<<<<< HEAD
-## ZX Spectrum Next
-=======
 # ZX Spectrum Next
->>>>>>> 099548e5049439272069d18ffafe873aeb9e9c59
+
+Sound/Volume Increased V20210118NA
 
 This port of ZX-Next to MiSTer FPGA, need a module with SRAM, it does not
 work at the moment with SDRAM.
+
+Based on benitoss (benitoss@gmail.com) https://github.com/benitoss/ZXNext_Mister  and  rampa069 (rampa@encomix.org) https://github.com/RW-FPGA-devel-Team/ZXNext_Mister/tree/dev-rampa source code.
+
 
 
 ## SPECIFICATIONS
