@@ -1248,8 +1248,8 @@ begin
 
   process (CLK_28,zxn_audio_L_pre,zxn_audio_R_pre)
   begin
-      audio_left  <= '0' & zxn_audio_L(11 downto 0) & zxn_audio_L(11 downto 9);
-	  audio_right <= '0' & zxn_audio_R(11 downto 0) & zxn_audio_R(11 downto 9);
+      audio_left  <= '1' & zxn_audio_L(11 downto 0) & zxn_audio_L(11 downto 9);
+	  audio_right <= '1' & zxn_audio_R(11 downto 0) & zxn_audio_R(11 downto 9);
   end process;
  
 
