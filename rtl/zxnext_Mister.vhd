@@ -91,9 +91,10 @@ entity ZXNEXT_Mister is
 		
 		audio_left 			: out   std_logic_vector(15 downto 0)  := (others => 'Z');
 		audio_right			: out   std_logic_vector(15 downto 0)  := (others => 'Z');
-		--zxn_audio_L       : out   std_logic_vector(11 downto 0)  := (others => 'Z');
-      --zxn_audio_R       : out   std_logic_vector(11 downto 0)  := (others => 'Z');
-      -- K7
+
+        --zxn_audio_L       : out   std_logic_vector(11 downto 0)  := (others => 'Z');
+        --zxn_audio_R       : out   std_logic_vector(11 downto 0)  := (others => 'Z');
+	  -- K7
       ear_port_i        : in    std_logic;
     
 	  
@@ -1248,8 +1249,9 @@ begin
 
   process (CLK_28,zxn_audio_L_pre,zxn_audio_R_pre)
   begin
-      audio_left  <= '1' & zxn_audio_L(11 downto 0) & zxn_audio_L(11 downto 9);
-	  audio_right <= '1' & zxn_audio_R(11 downto 0) & zxn_audio_R(11 downto 9);
+
+      audio_left  <= '0' & zxn_audio_L_pre(11 downto 0) & zxn_audio_L_pre(11 downto 9);
+	  audio_right <= '0' & zxn_audio_R_pre(11 downto 0) & zxn_audio_R_pre(11 downto 9);
   end process;
  
 
